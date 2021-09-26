@@ -8,6 +8,11 @@ namespace TupleAsAReturnType
         {
             //Call the method
             var person = GetPerson();
+
+            //Print the value
+            Console.WriteLine($"id = {person.Item1}");
+            Console.WriteLine($"Name = {person.Item2}");
+            Console.WriteLine($"Profession = {person.Item3}");
         }
 
         //create a method with tuple return type
