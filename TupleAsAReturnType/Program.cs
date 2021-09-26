@@ -6,7 +6,8 @@ namespace TupleAsAReturnType
     {
         static void Main(string[] args)
         {
-            
+            //Call the method
+            var person = GetPerson();
         }
 
         //create a method with tuple return type
