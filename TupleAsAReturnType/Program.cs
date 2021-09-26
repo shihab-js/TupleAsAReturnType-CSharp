@@ -18,6 +18,7 @@ namespace TupleAsAReturnType
         //create a method with tuple return type
         static Tuple<int, string, string> GetPerson()
         {
+            //return a tuple
             return Tuple.Create(1, "Shihab", "Programmer");
         }
     }
